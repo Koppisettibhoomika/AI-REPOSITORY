@@ -9,7 +9,8 @@ class solution:
                 return False
         print(self.A)
         return True
-    
+    
+
     def printplacedqueen(self,N): 
         print('Arrangment--->')
         print()
@@ -29,29 +30,36 @@ class solution:
                 if i == N:
                     self.printplacedqueen(N)
                 else:
-                    self.N_Queens(i+1,N)
+                    self.N_Queens(i+1,N)
+
 N = int(input("enter the queens value"))
 obj = solution()
 obj.N_Queens(1,N)
-                
+                
+
                 
                     
                 
                 
-            
+            
+
         
         
         
     
-   
+   
+
                 
                     
                     
-                
+                
+
             
             
            
             
-                  
+                  
+
                 
-    
+    
+
